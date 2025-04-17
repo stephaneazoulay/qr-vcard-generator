@@ -1,8 +1,8 @@
 module.exports = {
-    output: 'export',  // Pour un site statique
-    reactStrictMode: true,
+    output: 'export', // Indique à Next.js de produire un export statique
+    reactStrictMode: true, // Mode strict activé pour plus de sécurité
     experimental: {
-      outputStandalone: true,  // Pour s'assurer que tout fonctionne correctement
+      outputStandalone: true, // Pour assurer que l'export est autonome
     },
   };
   
