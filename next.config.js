@@ -1,8 +1,8 @@
 module.exports = {
-    output: 'export',
+    output: 'export',  // Pour un site statique
     reactStrictMode: true,
     experimental: {
-      outputStandalone: true, // Cette ligne permet d'éviter des erreurs lors du build.
+      outputStandalone: true,  // Pour s'assurer que tout fonctionne correctement
     },
   };
   
